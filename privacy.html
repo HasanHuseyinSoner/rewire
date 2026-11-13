@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self'; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<title>Rewire · Gizlilik Politikası</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin: 0; background: #09090b; color: #f4f4f5; font: 17px/1.65 -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 72px 24px 96px; }
+  h1 { font: 700 40px/1.1 ui-rounded, -apple-system, system-ui, sans-serif; letter-spacing: -0.02em; margin: 0 0 8px; }
+  h2 { font: 700 21px/1.3 ui-rounded, -apple-system, system-ui, sans-serif; margin: 40px 0 8px; color: #d4ff3a; }
+  p, li { color: rgba(255,255,255,.75); }
+  .meta { color: rgba(255,255,255,.45); font-size: 15px; }
+  .tldr { background: #141418; border: 1px solid rgba(255,255,255,.07); border-radius: 20px; padding: 20px 24px; margin-top: 32px; }
+  .tldr strong { color: #fff; }
+  a { color: #d4ff3a; }
+  .lang { float: right; font-size: 15px; }
+</style>
+</head>
+<body>
+<main>
+  <a class="lang" href="en/privacy.html" hreflang="en" lang="en">English</a>
+  <h1>Gizlilik Politikası</h1>
+  <p class="meta">Rewire (iOS ve Android) · Son güncelleme: 12 Kasım 2026</p>
+
+  <div class="tldr">
+    <p><strong>Kısaca:</strong> Rewire hiçbir kişisel veri toplamaz, sunucuya göndermez, satmaz veya paylaşmaz. Hesap, analitik, reklam ve takip yoktur. Her şey cihazında kalır.</p>
+  </div>
+
+  <h2>Rewire neleri saklar?</h2>
+  <p>Rewire çalışabilmek için aşağıdakileri <strong>yalnızca cihazında</strong>, uygulama ile sistem uzantıları arasında paylaşılan bir alanda saklar:</p>
+  <ul>
+    <li>Engel listen. iOS bu listeyi Rewire'a yalnızca anonim kimlikler olarak verir. Rewire, bu kimliklerin hangi uygulama veya siteye ait olduğunu göremez.</li>
+    <li>Programların, limitlerin ve ayarların.</li>
+    <li>Tamamlanan odak oturumları, seriler ve engellenen bir uygulamayı kaç kez kapattığın gibi basit sayaçlar.</li>
+    <li>Tanıtımda verdiğin cevaplar (günde kaç saat, ne kadarını geri almak istediğin, ne için) ve 21 günlük programdaki ilerlemen.</li>
+    <li>Android'de, beyin takvimini gösterebilmek için her günün toplam ekran süresi (dakika olarak, en fazla 400 gün). Hangi uygulamada ne kadar kaldığın saklanmaz.</li>
+  </ul>
+  <p>Bu bilgiler cihazından çıkmadığı için bize ulaşmaz; onları göremeyiz, başkasına veremeyiz.</p>
+
+  <h2>Ekran Süresi verileri (iOS)</h2>
+  <p>Rewire, Apple'ın Ekran Süresi altyapısını (Family Controls, Managed Settings ve Device Activity) kullanır. İstatistik sekmesindeki kullanım raporları iOS tarafından gizlilik korumalı bir uzantının içinde oluşturulur. Bu veriler o uzantıdan dışarı çıkamaz. Ne Rewire uygulaması ne biz ne de başka biri bu verilere erişebilir.</p>
+
+  <h2>İnternet erişimi</h2>
+  <p>Rewire'ın sunucusu yoktur ve uygulama kendi başına hiçbir ağ isteği yapmaz. Analitik aracı, reklam ağı veya hata raporlayıcı içermez. Yalnızca iki iş için cihazındaki mağaza uygulamasıyla (App Store ya da Google Play) konuşur: satın alım ve mağazanın kendi yorum penceresi. Bu sırada Rewire mağazaya senin hakkında bilgi göndermez.</p>
+
+  <h2>Bildirimler</h2>
+  <p>İzin verirsen Rewire günün görevini, oturumunun bittiğini ya da limitinin dolmak üzere olduğunu bildirimle hatırlatır. Bunlar cihazında üretilen yerel bildirimlerdir: bir sunucudan gönderilmez, bildirim kimliğin (push token) alınmaz ve hiçbir yere kaydedilmez. Bildirimleri uygulamadaki Ayarlar → Bildirimler bölümünden ya da telefonunun ayarlarından istediğin an kapatabilirsin.</p>
+
+  <h2>Satın alımlar</h2>
+  <p>Rewire Pro tek seferlik bir satın alımdır. Ödemeyi iOS'ta Apple, Android'de Google Play alır. Rewire kart bilgilerini, adını veya e-posta adresini hiçbir zaman görmez. Uygulama yalnızca Pro'nun açık olup olmadığını öğrenir ve bunu cihazında saklar.</p>
+
+  <h2>Android</h2>
+  <p>Android'de engelleme ve istatistikler iOS'tan farklı sistem izinleriyle çalışır. İkisini de sen Ayarlar'dan açarsın ve istediğin zaman kapatabilirsin.</p>
+  <ul>
+    <li><strong>Erişilebilirlik Servisi (engelleme için, zorunlu).</strong> Rewire bu servisi yalnızca ekranda hangi uygulamanın açıldığını (paket adını) öğrenmek için kullanır. Açılan uygulama engel listendeyse engel ekranını gösterir. Servis ekran içeriğini okuyamayacak şekilde ayarlanmıştır: yazdıklarını, mesajlarını, şifrelerini veya ekranda gördüğün hiçbir şeyi okumaz. Açılan uygulamanın adı kaydedilmez ve hiçbir yere gönderilmez. Engel listen ise, iOS'tan farklı olarak seçtiğin uygulamaların paket adlarıyla saklanır; bu liste de yalnızca cihazında kalır. Servis yalnızca engelleme için kullanılır; reklam, analitik veya başka bir amaçla kullanılmaz.</li>
+    <li><strong>Kullanım erişimi (istatistik ve günlük limit için, isteğe bağlı).</strong> Bu izni verirsen Rewire, ekran süreni, telefonu eline alma sayını ve en çok vakit alan uygulamaları göstermek ve günlük limiti uygulamak için Android'in kullanım istatistiklerini okur. Bu veriler yalnızca cihazında işlenir.</li>
+    <li><strong>Uygulama listesi.</strong> Engel listeni seçebilmen için Rewire yalnızca ana ekranda görünen uygulamaları listeler. Cihazındaki tüm paketlere erişme izni istemez.</li>
+    <li><strong>İnternet izni yok.</strong> Android sürümünün internet izni yoktur, bu yüzden veri cihazından dışarı çıkamaz. Satın alma, cihazındaki Play Store uygulaması üzerinden yapılır.</li>
+    <li><strong>Yedekleme yok.</strong> Rewire'ın verileri buluta yedeklenmez ve başka bir cihaza aktarılmaz.</li>
+  </ul>
+
+  <h2>Verilerini silmek</h2>
+  <p>Uygulamada <em>Ayarlar → Tüm verileri sil</em> seçeneğini kullanabilir veya uygulamayı silebilirsin. Ekran Süresi iznini kaldırmak için iOS Ayarlar → Ekran Süresi → Ekran Süresi Erişimi Olan Uygulamalar bölümüne git. Android'de izinleri Ayarlar → Erişilebilirlik ve Ayarlar → Kullanım erişimi bölümlerinden kapatabilirsin (menü adları üreticiye göre biraz değişebilir).</p>
+
+  <h2>Çocuklar</h2>
+  <p>Rewire, cihazı kullanan kişinin kendi kendini denetlemesi için tasarlanmıştır; çocuklara yönelik değildir ve bir ebeveyn denetimi aracı değildir. Çocuklar dahil hiç kimseden bilerek bilgi toplamaz.</p>
+
+  <h2>Sağlık</h2>
+  <p>"Beyin sağlığı", "beyin pili" ve "çürüme" ekran süreni günlük hedefinle karşılaştıran görsel bir benzetmedir. Tıbbi bir ölçüm, teşhis ya da tedavi değildir.</p>
+
+  <h2>Bize yazarsan (KVKK ve GDPR)</h2>
+  <p>Uygulama üzerinden kişisel veri toplamadığımız için elimizde seninle ilgili bir kayıt bulunmaz. Tek istisna, bize e-posta yazman: o zaman e-posta adresini ve yazdıklarını yalnızca sana cevap verebilmek için işleriz (hukuki sebep: talebini karşılamak için gerekli olması ve meşru menfaat). Bu yazışmaları başkasıyla paylaşmayız, pazarlama için kullanmayız ve konu kapandıktan sonra en geç bir yıl içinde sileriz. E-postalar, kullandığımız e-posta sağlayıcısının sunucularında durur; bu sunucular yurt dışında olabilir.</p>
+  <p>Veri sorumlusu, uygulamanın mağaza sayfasında adı yazan geliştiricidir. 6698 sayılı Kanun'un 11. maddesi (ve Avrupa'daysan GDPR) kapsamındaki haklarını kullanmak için, örneğin yazışmalarının silinmesini istemek için, aşağıdaki adrese yazman yeterli; en geç 30 gün içinde cevap veririz. Cevabımız seni tatmin etmezse Kişisel Verileri Koruma Kurulu'na şikâyette bulunabilirsin.</p>
+
+  <h2>Değişiklikler</h2>
+  <p>Bu politika değişirse güncel sürüm yeni tarihiyle birlikte bu adreste yayımlanır.</p>
+
+  <h2>İletişim</h2>
+  <p>Soruların için: <a href="mailto:hasanhuseyinsoner1@gmail.com">hasanhuseyinsoner1@gmail.com</a></p>
+</main>
+</body>
+</html>
